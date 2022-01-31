@@ -1,3 +1,4 @@
+/* Code by Ankur Kumar Gupta ..... */
 let questions = [
   {
   numb: 1,
