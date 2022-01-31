@@ -218,7 +218,8 @@ const quit_quiz = result_box.querySelector(".buttons .quit");
 
 // if restartQuiz button clicked
 restart_quiz.onclick = ()=>{
-    quiz_box.classList.add("activeQuiz"); //show quiz box
+    window.location.reload();
+    /*quiz_box.classList.add("activeQuiz"); //show quiz box
     result_box.classList.remove("activeResult"); //hide result box
     canvas.classList.remove("show-canvas");
     audio.pause();
@@ -235,6 +236,7 @@ restart_quiz.onclick = ()=>{
     startTimerLine(widthValue); //calling startTimerLine function
     timeText.textContent = "Time Left"; //change the text of timeText to Time Left
     next_btn.classList.remove("show"); //hide the next button
+    */
 }
 
 // if quitQuiz button clicked
