@@ -1,4 +1,5 @@
-/* Code by Ankur Kumar Gupta ..... */
+/* Code By Ankur Kumar Gupta */
+
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
 *{
     margin: 0;
@@ -389,3 +390,5 @@ footer button.show{
 #my-canvas.show-canvas{
     opacity: 1;
 }
+
+/* Code By Ankur Kumar Gupta */
