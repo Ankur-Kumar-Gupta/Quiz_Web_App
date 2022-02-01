@@ -175,7 +175,7 @@ function showResult(){
         avg.play();
     }
     else{
-        let scoreTag = '<span>and sorry , You got only <p>'+ userScore +'</p> out of <p>'+ questions.length +'</p></span>';
+        let scoreTag = '<span>and Sorry 😥 , You got only <p>'+ userScore +'</p> out of <p>'+ questions.length +'</p></span>';
         scoreText.innerHTML = scoreTag;
         canvas.classList.add("show-canvas");
         lose.play();
