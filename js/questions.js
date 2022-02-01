@@ -1,4 +1,5 @@
-/* Code by Ankur Kumar Gupta ..... */
+/* Code By Ankur Kumar Gupta */
+
 let questions = [
   {
   numb: 1,
@@ -221,3 +222,5 @@ let questions = [
   ]
 }
 ];
+
+/* Code By Ankur Kumar Gupta */
