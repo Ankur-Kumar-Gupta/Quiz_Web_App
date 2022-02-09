@@ -58,7 +58,7 @@ let questions = [
 },
   {
   numb: 6,
-  question: "Which concept does the Income Tax act refer under The Companies Act 1956 that requires that the income statement should be prepared annually? ",
+  question: "Which concept does the Income Tax act refer under The Companies Act that requires that the income statement should be prepared annually? ",
   answer: "Cost",
   options: [
     "Cost",
