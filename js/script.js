@@ -202,7 +202,7 @@ restart_quiz.onclick = ()=>{
     next_btn.classList.remove("show");
 }
 quit_quiz.onclick = ()=>{
-    window.location.reload();
+    window.open("https://ankur-kumar-gupta.github.io/elearning_web/course.html","_self");
 }
 var confettiSettings = { target: 'my-canvas' };
 var confetti = new ConfettiGenerator(confettiSettings);
