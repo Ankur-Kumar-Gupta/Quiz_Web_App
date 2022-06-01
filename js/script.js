@@ -162,20 +162,20 @@ function showResult(){
     quiz_box.classList.remove("activeQuiz");
     result_box.classList.add("activeResult");
     const scoreText = result_box.querySelector(".score_text");
-    if (userScore >= 15){
+    if (userScore >= 4){
         let scoreTag = '<span>and Congrats! 🎊 , You got <p>'+ userScore +'</p> out of <p>'+ questions.length +'</p></span>';
         scoreText.innerHTML = scoreTag;
         canvas.classList.add("show-canvas");   
         win.play();
     }
-    else if(userScore > 10){
+    else if(userScore > 2){
         let scoreTag = '<span>and Nice 👏 , You got <p>'+ userScore +'</p> out of <p>'+ questions.length +'</p></span>';
         scoreText.innerHTML = scoreTag;
         canvas.classList.add("show-canvas");
         avg.play();
     }
     else{
-        let scoreTag = '<span>and Sorry 😥 , You got only <p>'+ userScore +'</p> out of <p>'+ questions.length +'</p></span>';
+        let scoreTag = '<span>and sorry , You got only <p>'+ userScore +'</p> out of <p>'+ questions.length +'</p></span>';
         scoreText.innerHTML = scoreTag;
         canvas.classList.add("show-canvas");
         lose.play();
